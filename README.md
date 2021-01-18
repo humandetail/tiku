@@ -2,7 +2,7 @@
 
 本项目为后台数据接口采用 [Egg.js](https://eggjs.org/zh-cn/intro/quickstart.html) 开发，接口数据来自 [聚合数据](https://www.juhe.cn/docs)；前台采用 [Vue3.0](https://vue3js.cn/) 开发。
 
-本项目为 [Typescript](https://www.tslang.cn/) 练级项目。
+本项目为 [Typescript](https://www.tslang.cn/) 练习项目。
 
 ## 启动
 
