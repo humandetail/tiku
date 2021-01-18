@@ -1,0 +1,82 @@
+// 样式初始化文件
+@import './variables';
+
+::selection {
+  background-color: $brandColor;
+  color: #fff;
+}
+
+html {
+  height: 100%;
+  font-family: $fontFamily;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  line-height: $lineHeight;
+  color: $primaryText;
+  font-size: .16rem;
+}
+
+a {
+  color: $primaryText;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: $brandColor;
+  }
+}
+
+ul,
+ol,
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-size: .16rem;
+}
+
+p {
+  margin: 0;
+}
+
+figure {
+  display: block;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+input,
+button {
+  outline: none;
+}
+
+canvas {
+  display: block;
+}
+
+#app,
+.page-container {
+  height: 100%;
+}
+
